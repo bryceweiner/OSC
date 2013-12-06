@@ -293,7 +293,7 @@ border-color: rgb(255, 255, 255) 2px;
         <item>
          <widget class="QListView" name="listTransactions">
           <property name="styleSheet">
-           <string notr="true">QListView { background: transparent;  color: rgb(0, 85, 255);}</string>
+           <string notr="true">QListView { background: transparent;  color: rgb(29, 199, 241);}</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::NoFrame</enum>
