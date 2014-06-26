@@ -1,5 +1,5 @@
-#ifndef BOUNTYCOINFIELD_H
-#define BOUNTYCOINFIELD_H
+#ifndef OCOINFIELD_H
+#define OCOINFIELD_H
 
 #include <QWidget>
 
@@ -57,4 +57,4 @@ private slots:
 };
 
 
-#endif // BOUNTYCOINFIELD_H
+#endif // OCOINFIELD_H

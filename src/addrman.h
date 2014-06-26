@@ -1,8 +1,8 @@
 // Copyright (c) 2012 Pieter Wuille
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef _BOUNTYCOIN_ADDRMAN
-#define _BOUNTYCOIN_ADDRMAN 1
+#ifndef _OCOIN_ADDRMAN
+#define _OCOIN_ADDRMAN 1
 
 #include "netbase.h"
 #include "protocol.h"

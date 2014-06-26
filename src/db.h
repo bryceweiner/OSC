@@ -2,8 +2,8 @@
 // Copyright (c) 2013  The Ocoin developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_DB_H
-#define BOUNTYCOIN_DB_H
+#ifndef OCOIN_DB_H
+#define OCOIN_DB_H
 
 #include "main.h"
 
@@ -363,4 +363,4 @@ public:
     bool Read(CAddrMan& addr);
 };
 
-#endif // BOUNTYCOIN_DB_H
+#endif // OCOIN_DB_H

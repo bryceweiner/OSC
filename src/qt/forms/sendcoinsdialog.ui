@@ -13,11 +13,6 @@
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: rgb(84, 84, 84);
-color: #FFF;
-border-color: rgb(255, 255, 255) 2px;</string>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayoutTxComment">
@@ -45,21 +40,12 @@ border-color: rgb(255, 255, 255) 2px;</string>
        <property name="toolTip">
         <string>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</string>
        </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 255);</string>
-       </property>
       </widget>
      </item>
     </layout>
    </item>
    <item>
     <widget class="QScrollArea" name="scrollArea">
-     <property name="styleSheet">
-      <string notr="true">background-color: #FFF;
-color: #000;
-border-color: #dadada 2px solid;</string>
-     </property>
      <property name="widgetResizable">
       <bool>true</bool>
      </property>
@@ -107,11 +93,6 @@ border-color: #dadada 2px solid;</string>
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(84, 84, 84);
-color: #FFF;
-border-color: rgb(255, 255, 255) 2px;</string>
-       </property>
        <property name="text">
         <string>Add &amp;Recipient</string>
        </property>
@@ -134,11 +115,6 @@ border-color: rgb(255, 255, 255) 2px;</string>
        </property>
        <property name="toolTip">
         <string>Remove all transaction fields</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(84, 84, 84);
-color: #FFF;
-border-color: rgb(255, 255, 255) 2px;</string>
        </property>
        <property name="text">
         <string>Clear &amp;All</string>
@@ -205,11 +181,6 @@ border-color: rgb(255, 255, 255) 2px;</string>
        </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(84, 84, 84);
-color: #FFF;
-border-color: rgb(255, 255, 255) 2px;</string>
        </property>
        <property name="text">
         <string>S&amp;end</string>

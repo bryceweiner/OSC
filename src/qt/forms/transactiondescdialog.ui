@@ -13,17 +13,11 @@
   <property name="windowTitle">
    <string>Transaction details</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.777, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTextEdit" name="detailText">
      <property name="toolTip">
       <string>This pane shows a detailed description of the transaction</string>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(248, 248, 248);</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -32,10 +26,6 @@
    </item>
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(84, 84, 84);
-color: rgb(255, 255, 255);</string>
-     </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>

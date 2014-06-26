@@ -2,8 +2,8 @@
 // Copyright (c) 2013  The Ocoin developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_WALLETDB_H
-#define BOUNTYCOIN_WALLETDB_H
+#ifndef OCOIN_WALLETDB_H
+#define OCOIN_WALLETDB_H
 
 #include "db.h"
 #include "base58.h"
@@ -160,4 +160,4 @@ public:
     static bool Recover(CDBEnv& dbenv, std::string filename);
 };
 
-#endif // BOUNTYCOIN_WALLETDB_H
+#endif // OCOIN_WALLETDB_H

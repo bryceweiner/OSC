@@ -1,5 +1,5 @@
-#ifndef BOUNTYCOINUNITS_H
-#define BOUNTYCOINUNITS_H
+#ifndef OCOINUNITS_H
+#define OCOINUNITS_H
 
 #include <QString>
 #include <QAbstractListModel>
@@ -63,4 +63,4 @@ private:
 };
 typedef OcoinUnits::Unit OcoinUnit;
 
-#endif // BOUNTYCOINUNITS_H
+#endif // OCOINUNITS_H

@@ -2,8 +2,8 @@
 // Copyright (c) 2013  The Ocoin developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef _BOUNTYCOIN_COMPAT_H
-#define _BOUNTYCOIN_COMPAT_H 1
+#ifndef _OCOIN_COMPAT_H
+#define _OCOIN_COMPAT_H 1
 
 #ifdef WIN32
 #define _WIN32_WINNT 0x0501

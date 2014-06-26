@@ -2,8 +2,8 @@
 // Copyright (c) 2013  The Ocoin developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_BIGNUM_H
-#define BOUNTYCOIN_BIGNUM_H
+#ifndef OCOIN_BIGNUM_H
+#define OCOIN_BIGNUM_H
 
 #include <stdexcept>
 #include <vector>
