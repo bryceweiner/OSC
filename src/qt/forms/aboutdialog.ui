@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>About Ocoin</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.777, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
-  </property>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
@@ -30,10 +27,6 @@
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(84, 84, 84);
-</string>
    </property>
    <property name="pixmap">
     <pixmap resource="../Ocoin.qrc">:/images/about</pixmap>
@@ -58,8 +51,7 @@
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(209, 209, 209);
-background-color: rgb(84, 84, 84);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Copyright © 2013 The OpenSourceCoin Developers&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -91,10 +83,6 @@ background-color: rgb(84, 84, 84);</string>
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(84, 84, 84);
-color: rgb(255, 255, 255);</string>
-   </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
    </property>
@@ -117,12 +105,8 @@ color: rgb(255, 255, 255);</string>
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(208, 208, 208);
-background-color: rgb(84, 84, 84);</string>
-   </property>
    <property name="text">
-    <string notr="true">2.0.0-blunderfish</string>
+    <string notr="true">2.0.1-clean</string>
    </property>
    <property name="textInteractionFlags">
     <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -142,11 +126,6 @@ background-color: rgb(84, 84, 84);</string>
    </property>
    <property name="autoFillBackground">
     <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(199, 199, 199);
-font: 75 14pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(84, 84, 84);</string>
    </property>
    <property name="text">
     <string>&lt;b&gt;Ocoin&lt;/b&gt; version</string>
@@ -172,10 +151,6 @@ background-color: rgb(84, 84, 84);</string>
    </property>
    <property name="autoFillBackground">
     <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(209, 209, 209);
-background-color: rgb(84, 84, 84);</string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;http://opesourcecoin.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -204,10 +179,6 @@ background-color: rgb(84, 84, 84);</string>
    </property>
    <property name="autoFillBackground">
     <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(209, 209, 209);
-background-color: rgb(84, 84, 84);</string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Distributed under the MIT/X11 software license&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;License Info &lt;/span&gt;(&lt;a href=&quot; http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;.)&lt;/p&gt;&lt;p&gt;This product includes software developed by the&lt;span style=&quot; font-weight:600;&quot;&gt; OpenSSL Project&lt;/span&gt;&lt;/p&gt;&lt;p&gt;for use in the OpenSSL Toolkit (&lt;a href=&quot;http://www.openssl.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.openssl.org/&lt;/span&gt;&lt;/a&gt;) and &lt;/p&gt;&lt;p&gt;cryptographic software written by Eric Young (&lt;a href=&quot;mailto: http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;) and &lt;/p&gt;&lt;p&gt;UPnP software written by&lt;span style=&quot; font-weight:600;&quot;&gt; Thomas Bernard.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>

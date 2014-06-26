@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef _BOUNTYCOINALERT_H_
-#define _BOUNTYCOINALERT_H_ 1
+#ifndef _OCOINALERT_H_
+#define _OCOINALERT_H_ 1
 
 #include <set>
 #include <string>

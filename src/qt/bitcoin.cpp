@@ -20,8 +20,8 @@
 #include <QSplashScreen>
 #include <QLibraryInfo>
 
-#if defined(BOUNTYCOIN_NEED_QT_PLUGINS) && !defined(_BOUNTYCOIN_QT_PLUGINS_INCLUDED)
-#define _BOUNTYCOIN_QT_PLUGINS_INCLUDED
+#if defined(OCOIN_NEED_QT_PLUGINS) && !defined(_OCOIN_QT_PLUGINS_INCLUDED)
+#define _OCOIN_QT_PLUGINS_INCLUDED
 #define __INSURE__
 #include <QtPlugin>
 Q_IMPORT_PLUGIN(qcncodecs)
@@ -110,7 +110,7 @@ static void handleRunawayException(std::exception *e)
     exit(1);
 }
 
-#ifndef BOUNTYCOIN_QT_TEST
+#ifndef OCOIN_QT_TEST
 int main(int argc, char *argv[])
 {
     // Do this early as we don't want to bother initializing if we are just calling IPC
@@ -267,4 +267,4 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
-#endif // BOUNTYCOIN_QT_TEST
+#endif // OCOIN_QT_TEST

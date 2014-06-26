@@ -1,8 +1,8 @@
 // Copyright (c) 2012 The Ocoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_MRUSET_H
-#define BOUNTYCOIN_MRUSET_H
+#ifndef OCOIN_MRUSET_H
+#define OCOIN_MRUSET_H
 
 #include <set>
 #include <deque>

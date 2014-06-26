@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>QR Code Dialog</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.777, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
     <widget class="QLabel" name="lblQRCode">
@@ -30,9 +27,6 @@
        <width>300</width>
        <height>300</height>
       </size>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(84, 84, 84);</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -59,9 +53,6 @@
        <height>50</height>
       </size>
      </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);</string>
-     </property>
      <property name="tabChangesFocus">
       <bool>true</bool>
      </property>
@@ -72,17 +63,11 @@
    </item>
    <item>
     <widget class="QWidget" name="widget" native="true">
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(84, 84, 84);</string>
-     </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="QCheckBox" name="chkReqPayment">
         <property name="enabled">
          <bool>true</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
          <string>Request Payment</string>
@@ -268,9 +253,6 @@
             </disabled>
            </palette>
           </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);</string>
-          </property>
           <property name="text">
            <string>Label:</string>
           </property>
@@ -287,16 +269,10 @@
         </item>
         <item row="1" column="1">
          <widget class="QLineEdit" name="lnLabel">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
          </widget>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="lblMessage">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);</string>
-          </property>
           <property name="text">
            <string>Message:</string>
           </property>
@@ -313,9 +289,6 @@
         </item>
         <item row="2" column="1">
          <widget class="QLineEdit" name="lnMessage">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
-          </property>
          </widget>
         </item>
         <item row="0" column="0">
@@ -325,9 +298,6 @@
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);</string>
           </property>
           <property name="text">
            <string>Amount:</string>
@@ -375,10 +345,6 @@
         </item>
         <item>
          <widget class="QPushButton" name="btnSaveAs">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);background-color: rgb(84, 84, 84);
-border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-          </property>
           <property name="text">
            <string>&amp;Save As...</string>
           </property>

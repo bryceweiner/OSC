@@ -13,12 +13,6 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: rgb(84, 84, 84);
-color: #FFF;
-border-color: rgb(255, 255, 255) 2px;
-</string>
-  </property>
   <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -264,9 +258,6 @@ border-color: rgb(255, 255, 255) 2px;
             <property name="toolTip">
              <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Ocoin network after a connection is established, but this process has not completed yet.</string>
             </property>
-            <property name="styleSheet">
-             <string notr="true">QLabel { color: red; }</string>
-            </property>
             <property name="text">
              <string notr="true">(out of sync)</string>
             </property>
@@ -292,9 +283,6 @@ border-color: rgb(255, 255, 255) 2px;
         </item>
         <item>
          <widget class="QListView" name="listTransactions">
-          <property name="styleSheet">
-           <string notr="true">QListView { background: transparent;  color: rgb(29, 199, 241);}</string>
-          </property>
           <property name="frameShape">
            <enum>QFrame::NoFrame</enum>
           </property>

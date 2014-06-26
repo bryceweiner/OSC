@@ -2,7 +2,7 @@
 #define QTIPCSERVER_H
 
 // Define Ocoin-Qt message queue name
-#define BOUNTYCOINURI_QUEUE_NAME "OcoinURI"
+#define OCOINURI_QUEUE_NAME "OcoinURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);

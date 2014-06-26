@@ -1,5 +1,5 @@
-#ifndef BOUNTYCOINGUI_H
-#define BOUNTYCOINGUI_H
+#ifndef OCOINGUI_H
+#define OCOINGUI_H
 
 #include <QMainWindow>
 #include <QSystemTrayIcon>

@@ -14,9 +14,7 @@
    <string>Address Book</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(84, 84, 84);
-color: #FFF;
-border-color: rgb(255, 255, 255) 2px;</string>
+   <string notr="true"/>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>

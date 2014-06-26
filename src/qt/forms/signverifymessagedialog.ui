@@ -13,19 +13,12 @@
   <property name="windowTitle">
    <string>Signatures - Sign / Verify a Message</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.777, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
-  </property>
   <property name="modal">
    <bool>true</bool>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabWidget">
-     <property name="styleSheet">
-      <string notr="true">color: rgb(222, 222, 222);
-background-color: rgb(84, 84, 84);</string>
-     </property>
      <property name="currentIndex">
       <number>1</number>
      </property>
@@ -292,20 +285,10 @@ color: rgb(0, 0, 0);</string>
         </layout>
        </item>
        <item>
-        <widget class="QPlainTextEdit" name="messageIn_VM">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
-         </property>
-        </widget>
+        <widget class="QPlainTextEdit" name="messageIn_VM"/>
        </item>
        <item>
-        <widget class="QValidatedLineEdit" name="signatureIn_VM">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);</string>
-         </property>
-        </widget>
+        <widget class="QValidatedLineEdit" name="signatureIn_VM"/>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2_VM">
